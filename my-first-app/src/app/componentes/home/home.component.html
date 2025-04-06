@@ -1,0 +1,135 @@
+<main>
+  <section class="seccion_imagen_portada">
+    <img src="imagen_portada.jpg" alt="jardin">
+
+  </section>
+
+  <section class="seccion_destacados" id="seccion_destacados">
+    <h2 class="seccion_destacados_titulo">Nuestros <span>valores</span></h2>
+
+    <div class="contenedor_listado_jardin">
+      <div class="contenedor_jardin">
+        <img src="jardin-hamarikyu.jpg" alt="">
+
+        <div class="contenedor_jardin_informacion">
+          <h3>Sostenibilidad</h3>
+          <p>Creemos que la sostenibilidad es fundamental en cada aspecto de nuestro
+            trabajo. Nos comprometemos a realizar una planificación minuciosa y a estudiar
+             el entorno para comprender cómo interactúan los elementos naturales y maximizar
+             los recursos disponibles.</p>
+
+        </div>
+      </div>
+
+      <div class="contenedor_jardin">
+        <img src="jardin_1.jpg" alt="">
+
+        <div class="contenedor_jardin_informacion">
+          <h3>Resiliencia</h3>
+          <p>Desarrollamos jardines que se adaptan ante cambios ambientales y climáticos.
+            Utilizamos prácticas de diseño y selección de plantas que promueven la resistencia
+            y la capacidad de recuperación de nuestros jardines.
+          </p>
+        </div>
+      </div>
+
+      <div class="contenedor_jardin">
+        <img src="jardin_2.jpg" alt="Imagen Producto">
+
+        <div class="contenedor_jardin_informacion">
+          <h3>Armonía</h3>
+          <p>Nuestro objetivo es crear espacios que inviten a la contemplación y la tranquilidad,
+             donde la forma, el color y la textura se combinen en una composición armoniosa que
+             resuene con la esencia del lugar y las necesidades de nuestros clientes.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion_sobre_nosotros" id="seccion_sobre_nosotros">
+    <div class="contenedor_sobre_nosotros_flex">
+      <div class="contenedor_sobre_nosotros_texto">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa de paisajismo en Valencia que nos
+        comprometemos con la sostenibilidad mediante el diseño basado en jardines japoneses y bonsais,
+        trabajando en estrecha colaboración con cada cliente para desarrollar un espacio único que refleje
+        tu hogar e identidad”.</p>
+      </div>
+      <div class="contenedor_sobre_nosotros_imagen">
+        <img src="tejo_pedro.jpg" alt="bonsai tejo">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="seccion_carousel_imagenes" id="seccion_carousel_imagenes">
+    <h2><span>El bienestar transmitido</span> por los bonsais</h2>
+
+    <div class="contenedor_carousel_imagen_central">
+      <div class="carousel_imagen">
+        <div class="carousel_imagen_texto">El equilibrio entre el verde y lo caduco</div>
+        <img src="exposicion_1.jpg" alt="museo_ghibli"/>
+      </div>
+
+      <div class="carousel_imagen">
+        <div class="carousel_imagen_texto">Nuestro objetivo: La conexion con la naturaleza</div>
+        <img src="exposicion_2.jpg" alt="cafeteria_kyoto"/>
+
+      </div>
+      <div class="carousel_imagen">
+        <div class="carousel_imagen_texto">La biodiversidad es vida</div>
+        <img src="exposicion_3.jpg" alt="museo_ghibli_2"/>
+      </div>
+      <div class="carousel_imagen">
+        <div class="carousel_imagen_texto">La simulacion de la naturaleza miniaturizada</div>
+        <img src="exposicion_4.jpg" alt="museo_ghibli_2"/>
+      </div>
+      <div class="carousel_imagen">
+        <div class="carousel_imagen_texto">Nuestro placer, dar vida a tu jardin</div>
+        <img src="exposicion_5.jpg" alt="museo_ghibli_2"/>
+      </div>
+
+      <img class="carousel_boton_anterior" onclick="siguienteParte(-1)" src="icono_izquierda.png"
+           alt="Icono de la izquierda"/>
+
+      <img class="carousel_boton_siguiente" onclick="siguienteParte(1)" src="icono_derecha.png"
+           alt="Icono de la derecha"/>
+
+      <div class="carousel_descripcion">
+        <h3 id="descripcion"></h3>
+      </div>
+
+      <div class="contenedor_previsualizacion">
+        <div class="contenedor_previsualizacion_column">
+          <img class="imagen" src="bonsai_1.jpg" onclick="parteActual(1)">
+        </div>
+        <div class="contenedor_previsualizacion_column">
+          <img class="imagen" src="bonsai_2.jpg" onclick="parteActual(2)">
+        </div>
+        <div class="contenedor_previsualizacion_column">
+          <img class="imagen" src="bonsai_3.jpg" onclick="parteActual(3)">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion_contacto" id="seccion_contacto">
+    <div class="contenedor_contacto">
+      <h2>Te    gustan <span>   los   estilos   zen?</span>   preparate   para    la    acción!!</h2>
+      <h4> Únete a nuestra lista de correo para poder recibir las últimas noticias sobre trabajos,
+        mantenimientos, fotos, busqueda de trabajo, etc. </h4>
+      <p>Al ingresar su dirección de correo electrónico, usted comprende y acepta que Bonsai Garden puede utilizar sus datos personales de acuerdo con nuestra Política de privacidad de datos.
+        <a target="_blank"
+          href="https://es.wikipedia.org/wiki/Pol%C3%ADtica_de_privacidad#:~:text=Una%20pol%C3%ADtica%20de%20privacidad%20es,el%20usuario%20crea%20una%20cuenta.">
+          Política de privacidad</a></p>
+      <div class="contenedor_contacto_formulario">
+        <form>
+          <input class="elemento_formulario" name="name" type="text" placeholder="Tu Nombre" required>
+          <input class="elemento_formulario" name="email" type="email" placeholder="Tu Correo" required>
+          <button class="boton_formulario" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
