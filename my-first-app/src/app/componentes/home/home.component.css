@@ -1,6 +1,5 @@
 main {
-
-  .seccion_imagen_portada {
+    .seccion_imagen_portada{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
