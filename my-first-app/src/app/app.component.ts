@@ -5,10 +5,13 @@ import { FooterComponent } from "./componentes/footer/footer.component";
 import { HeaderComponent } from "./componentes/header/header.component";
 import { HomeComponent } from "./componentes/home/home.component";
 import { ComunidadComponent } from "./componentes/comunidad/comunidad.component";
+import {ShopComponent} from "./componentes/shop/shop.component";
+import { CardComponent } from './componentes/card/card.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, FooterComponent, HeaderComponent, HomeComponent, ComunidadComponent],
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, HeaderComponent, HomeComponent, ComunidadComponent,
+    ShopComponent, CardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
