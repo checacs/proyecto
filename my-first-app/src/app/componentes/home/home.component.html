@@ -1,15 +1,15 @@
 <main>
   <section class="seccion_imagen_portada">
-    <img src="imagen_portada.jpg" alt="jardin">
+    <img src="imagen_portada.JPG" alt="jardin">
 
   </section>
 
   <section class="seccion_destacados" id="seccion_destacados">
-    <h2 class="seccion_destacados_titulo">Nuestros <span>valores</span></h2>
+    <h2 class="seccion_destacados_titulo">Nuestros<span>valores</span></h2>
 
     <div class="contenedor_listado_jardin">
       <div class="contenedor_jardin">
-        <img src="jardin-hamarikyu.jpg" alt="">
+        <img src="jardin-hamarikyu.JPG" alt="">
 
         <div class="contenedor_jardin_informacion">
           <h3>Sostenibilidad</h3>
@@ -22,7 +22,7 @@
       </div>
 
       <div class="contenedor_jardin">
-        <img src="jardin_1.jpg" alt="">
+        <img src="jardin_1.JPG" alt="">
 
         <div class="contenedor_jardin_informacion">
           <h3>Resiliencia</h3>
@@ -34,7 +34,7 @@
       </div>
 
       <div class="contenedor_jardin">
-        <img src="jardin_2.jpg" alt="Imagen Producto">
+        <img src="Jardin_2.JPG" alt="Imagen Producto">
 
         <div class="contenedor_jardin_informacion">
           <h3>Armonía</h3>
@@ -44,6 +44,44 @@
 
         </div>
       </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>HOLAAAAA</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
 
@@ -66,12 +104,45 @@
   <section class="seccion_carousel_imagenes" id="seccion_carousel_imagenes">
     <h2><span>El bienestar transmitido</span> por los bonsais</h2>
 
-    <div class="contenedor_carousel_imagen_central">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active d-flex justify-content-center">
+          <img src="exposicion_1.jpg" class="d-block w-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item d-flex justify-content-center">
+          <img src="exposicion_2.jpg" class="d-block w-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item d-flex justify-content-center">
+          <img src="exposicion_3.jpg" class="d-block w-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- <div class="contenedor_carousel_imagen_central">
       <div class="carousel_imagen">
         <div class="carousel_imagen_texto">El equilibrio entre el verde y lo caduco</div>
         <img src="exposicion_1.jpg" alt="museo_ghibli"/>
       </div>
-
       <div class="carousel_imagen">
         <div class="carousel_imagen_texto">Nuestro objetivo: La conexion con la naturaleza</div>
         <img src="exposicion_2.jpg" alt="cafeteria_kyoto"/>
@@ -99,8 +170,9 @@
       <div class="carousel_descripcion">
         <h3 id="descripcion"></h3>
       </div>
+    </div> -->
 
-      <div class="contenedor_previsualizacion">
+      <!-- <div class="contenedor_previsualizacion">
         <div class="contenedor_previsualizacion_column">
           <img class="imagen" src="bonsai_1.jpg" onclick="parteActual(1)">
         </div>
@@ -110,8 +182,7 @@
         <div class="contenedor_previsualizacion_column">
           <img class="imagen" src="bonsai_3.jpg" onclick="parteActual(3)">
         </div>
-      </div>
-    </div>
+      </div> -->
   </section>
 
   <section class="seccion_contacto" id="seccion_contacto">
@@ -133,3 +204,4 @@
     </div>
   </section>
 </main>
+
