@@ -1,50 +1,59 @@
 <main>
-  <section class="seccion_imagen_portada">
-    <img src="imagen_portada.JPG" alt="jardin">
+  <div class="d-flex justify-content-center align-items-center" style="height: 500px;">
+    <div class="flex-nowrap">
+    <section class="seccion_imagen_portada">
+      <div class="w-100">
+        <img src="imagen_portada.JPG" class="img-fluid" style="object-fit: cover;" alt="jardin">
+      </div>
 
-  </section>
 
+    </section>
+    </div>
+  </div>
+
+  <div class="pt-5 mx-auto" style="max-width: 1300px;"></div>
   <section class="seccion_destacados" id="seccion_destacados">
-    <h2 class="seccion_destacados_titulo">Nuestros<span>valores</span></h2>
+    <!--<div class="text-center display-1 font-weight-bold" style="letter-spacing: 1px;"></div>-->
+      <h2 class="seccion_destacados_titulo">Nuestros <span>valores</span></h2>
 
-    <div class="contenedor_listado_jardin">
-      <div class="contenedor_jardin">
-        <img src="jardin-hamarikyu.JPG" alt="">
+      <div class="contenedor_listado_jardin">
+        <div class="contenedor_jardin">
+          <img src="jardin-hamarikyu.JPG" alt="">
 
-        <div class="contenedor_jardin_informacion">
-          <h3>Sostenibilidad</h3>
-          <p>Creemos que la sostenibilidad es fundamental en cada aspecto de nuestro
+          <div class="contenedor_jardin_informacion">
+            <h3>Sostenibilidad</h3>
+            <p>Creemos que la sostenibilidad es fundamental en cada aspecto de nuestro
             trabajo. Nos comprometemos a realizar una planificación minuciosa y a estudiar
              el entorno para comprender cómo interactúan los elementos naturales y maximizar
              los recursos disponibles.</p>
 
+          </div>
         </div>
-      </div>
 
-      <div class="contenedor_jardin">
-        <img src="jardin_1.JPG" alt="">
+        <div class="contenedor_jardin">
+          <img src="jardin_1.JPG" alt="">
 
-        <div class="contenedor_jardin_informacion">
-          <h3>Resiliencia</h3>
-          <p>Desarrollamos jardines que se adaptan ante cambios ambientales y climáticos.
+          <div class="contenedor_jardin_informacion">
+            <h3>Resiliencia</h3>
+            <p>Desarrollamos jardines que se adaptan ante cambios ambientales y climáticos.
             Utilizamos prácticas de diseño y selección de plantas que promueven la resistencia
             y la capacidad de recuperación de nuestros jardines.
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="contenedor_jardin">
-        <img src="Jardin_2.JPG" alt="Imagen Producto">
+        <div class="contenedor_jardin">
+          <img src="Jardin_2.JPG" alt="Imagen Producto">
 
-        <div class="contenedor_jardin_informacion">
-          <h3>Armonía</h3>
-          <p>Nuestro objetivo es crear espacios que inviten a la contemplación y la tranquilidad,
+          <div class="contenedor_jardin_informacion">
+            <h3>Armonía</h3>
+            <p>Nuestro objetivo es crear espacios que inviten a la contemplación y la tranquilidad,
              donde la forma, el color y la textura se combinen en una composición armoniosa que
              resuene con la esencia del lugar y las necesidades de nuestros clientes.</p>
 
+          </div>
         </div>
       </div>
-    </div>
 
   </section>
 
@@ -64,48 +73,15 @@
     </div>
   </section>
 
-  <section class="seccion_carousel_imagenes" id="seccion_carousel_imagenes">
+  <!--<section class="seccion_carousel_imagenes" id="seccion_carousel_imagenes">
     <h2><span>El bienestar transmitido</span> por los bonsais</h2>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active d-flex justify-content-center">
-          <img src="exposicion_1.jpg" class="d-block w-50" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item d-flex justify-content-center">
-          <img src="exposicion_2.jpg" class="d-block w-50" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item d-flex justify-content-center">
-          <img src="exposicion_3.jpg" class="d-block w-50" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- <div class="contenedor_carousel_imagen_central">
+    <div class="contenedor_carousel_imagen_central">
       <div class="carousel_imagen">
         <div class="carousel_imagen_texto">El equilibrio entre el verde y lo caduco</div>
         <img src="exposicion_1.jpg" alt="museo_ghibli"/>
       </div>
+
       <div class="carousel_imagen">
         <div class="carousel_imagen_texto">Nuestro objetivo: La conexion con la naturaleza</div>
         <img src="exposicion_2.jpg" alt="cafeteria_kyoto"/>
@@ -133,9 +109,8 @@
       <div class="carousel_descripcion">
         <h3 id="descripcion"></h3>
       </div>
-    </div> -->
 
-      <!-- <div class="contenedor_previsualizacion">
+      <div class="contenedor_previsualizacion">
         <div class="contenedor_previsualizacion_column">
           <img class="imagen" src="bonsai_1.jpg" onclick="parteActual(1)">
         </div>
@@ -145,8 +120,9 @@
         <div class="contenedor_previsualizacion_column">
           <img class="imagen" src="bonsai_3.jpg" onclick="parteActual(3)">
         </div>
-      </div> -->
-  </section>
+      </div>
+    </div>
+  </section>-->
 
   <section class="seccion_contacto" id="seccion_contacto">
     <div class="contenedor_contacto">
@@ -167,4 +143,3 @@
     </div>
   </section>
 </main>
-
