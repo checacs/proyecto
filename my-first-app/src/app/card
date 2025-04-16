@@ -1,11 +1,15 @@
   <div class="card m-3" style="width: 25rem;">
     <div class="card-body">
+      <h5 class="card-title display-3">Alias</h5>
       <h6 class="card-subtitle display-6 mb-2 text-body-secondary">Nombre</h6>
       <ul>
-        <li>Precio:</li>
-        <li>Variedad:</li>
-        <li>Origen:</li>
-        <li>Tamaño:</li>
+        <li>País</li>
+        <li>Peso KG</li>
+        <li>Rival</li>
+        <li>Es Debut</li>
+        <li>Peleas Ganadas: </li>
+        <li>Peleas Perdidas: </li>
       </ul>
+      <p>esta es el jugador con ___________</p>
     </div>
   </div>

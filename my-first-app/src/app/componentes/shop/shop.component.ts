@@ -8,5 +8,11 @@ import { CardComponent } from "../card/card.component";
   styleUrl: './shop.component.css'
 })
 export class ShopComponent {
-
+  bonsai ={
+    nombre: 'Junipero',
+    precio: '500€',
+    variedad: 'Itohigawa',
+    origen: 'Japon',
+    altura: 'Shohin'
+    }
 }
