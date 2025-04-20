@@ -1,0 +1,62 @@
+{
+  "tienda": "Bonsais",
+  "ubicacion": "Valencia",
+  "especies": [
+    {
+      "nombre": "Junipero",
+      "Precio": "500€",
+      "Variedad": "Itoigawa",
+      "Origen": "Japon",
+      "Altura": "Shohin",
+      "imagen": "../bonsai_2.jpg"
+    },
+    {
+      "nombre": "Gardenia",
+      "Precio": "500€",
+      "Variedad": "Jasminoides",
+      "Origen": "España",
+      "Altura": "Shohin",
+      "imagen": "../bonsai_1.jpg"
+    },
+    {
+      "nombre": "Chaenomeles",
+      "Precio": "500€",
+      "Variedad": "Japonica",
+      "Origen": "Japon",
+      "Altura": "Mame",
+      "imagen": "../bonsai_3.jpg"
+    },
+    {
+      "nombre": "Olmo",
+      "Precio": "500€",
+      "Variedad": "Nirekeyaki",
+      "Origen": "España",
+      "Altura": "Shohin",
+      "imagen": "../bonsai-1.jpg"
+    },
+    {
+      "nombre": "Romero",
+      "Precio": "200€",
+      "Variedad": "Rastrero",
+      "Origen": "España",
+      "Altura": "Shohin",
+      "imagen": "../bonsai-2.jpg"
+    },
+    {
+      "nombre": "Arce",
+      "Precio": "500€",
+      "Variedad": "Yamamomiji",
+      "Origen": "Japon",
+      "Altura": "Mame",
+      "imagen": "../bonsai-3.jpg"
+    },
+    {
+      "nombre": "Pino",
+      "Precio": "500€",
+      "Variedad": "Thumbergii",
+      "Origen": "España",
+      "Altura": "Shohin",
+      "imagen": "../bonsai-4.jpg"
+    }
+  ]
+}

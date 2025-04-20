@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camiseta Retro",
+    "precio": 25.99
+  },
+  {
+    "id": 2,
+    "nombre": "Zapatillas Clásicas",
+    "precio": 59.99
+  },
+  {
+    "id": 3,
+    "nombre": "Camiseta Retro",
+    "precio": 25.99
+  },
+  {
+    "id": 4,
+    "nombre": "Zapatillas Clásicas",
+    "precio": 59.99
+  },
+  {
+    "id": 5,
+    "nombre": "Camiseta Retro",
+    "precio": 25.99
+  },
+  {
+    "id": 6,
+    "nombre": "Zapatillas Clásicas",
+    "precio": 59.99
+  },
+  {
+    "id": 7,
+    "nombre": "Camiseta Retro",
+    "precio": 25.99
+  },
+  {
+    "id": 8,
+    "nombre": "Zapatillas Clásicas",
+    "precio": 59.99
+  },
+  {
+    "id": 9,
+    "nombre": "Camiseta Retro",
+    "precio": 25.99
+  },
+  {
+    "id": 10,
+    "nombre": "Zapatillas Clásicas",
+    "precio": 59.99
+  }
+]
