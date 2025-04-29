@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "../navbar/navbar.component";
+import { Producto } from '../../common/producto';
 
 @Component({
   selector: 'app-shop',
@@ -10,18 +11,19 @@ import { NavbarComponent } from "../navbar/navbar.component";
   templateUrl: './shop.component.html',
   styleUrl: './shop.component.css'
 })
-export class ShopComponent implements OnInit{
+export class ShopComponent implements OnInit {
 
-  producto! : Producto;
-  constructor(private DataService: DataService) { }
+  bonsai!: Producto;
+  constructor(private dataService: DataService) { }
   ngOnInit(): void {
     this.loadProductos();
   }
   loadProductos() {
-    this.DataService.getProductos().subscribe({
-      next: (data) => {
-        this.bonsai = data;
-        console.log(this.bonsai);
+    this.dataService.getProductos().subscribe(
+      {
+        next: (data) => {
+          this.bonsai = data;
+          console.log(this.bonsai);
 
         },
         error: (err) => {
@@ -34,9 +36,9 @@ export class ShopComponent implements OnInit{
     )
   }
 
-  bonsai = {
+  // bonsai = {
 
-  }
+  // }
   /* bonsai ={
     nombre: 'Bonsais',
     especies: [

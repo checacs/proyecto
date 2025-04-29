@@ -8,7 +8,9 @@
       "Variedad": "Itoigawa",
       "Origen": "Japon",
       "Altura": "Shohin",
-      "imagen": "../bonsai_2.jpg"
+      "imagen": "bonsai_2.jpg",
+      "stock": "true"
+
     },
     {
       "nombre": "Gardenia",
@@ -16,7 +18,8 @@
       "Variedad": "Jasminoides",
       "Origen": "España",
       "Altura": "Shohin",
-      "imagen": "../bonsai_1.jpg"
+      "imagen": "bonsai_1.jpg",
+      "stock": "true"
     },
     {
       "nombre": "Chaenomeles",
@@ -24,7 +27,8 @@
       "Variedad": "Japonica",
       "Origen": "Japon",
       "Altura": "Mame",
-      "imagen": "../bonsai_3.jpg"
+      "imagen": "bonsai_3.jpg",
+      "stock": "true"
     },
     {
       "nombre": "Olmo",
@@ -32,7 +36,8 @@
       "Variedad": "Nirekeyaki",
       "Origen": "España",
       "Altura": "Shohin",
-      "imagen": "../bonsai-1.jpg"
+      "imagen": "bonsai-1.jpg",
+      "stock": "true"
     },
     {
       "nombre": "Romero",
@@ -40,7 +45,8 @@
       "Variedad": "Rastrero",
       "Origen": "España",
       "Altura": "Shohin",
-      "imagen": "../bonsai-2.jpg"
+      "imagen": "bonsai-2.jpg",
+      "stock": "true"
     },
     {
       "nombre": "Arce",
@@ -48,7 +54,8 @@
       "Variedad": "Yamamomiji",
       "Origen": "Japon",
       "Altura": "Mame",
-      "imagen": "../bonsai-3.jpg"
+      "imagen": "bonsai-3.jpg",
+      "stock": "true"
     },
     {
       "nombre": "Pino",
@@ -56,7 +63,8 @@
       "Variedad": "Thumbergii",
       "Origen": "España",
       "Altura": "Shohin",
-      "imagen": "../bonsai-4.jpg"
+      "imagen": "bonsai-4.jpg",
+      "stock": "true"
     }
   ]
 }
