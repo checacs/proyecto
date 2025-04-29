@@ -1,3 +1,11 @@
 .card-body {
   background-color: #b8b3a5;
 }
+.card img {
+  width: 200px;      /* Ancho fijo de 200px */
+  height: 200px;     /* Altura fija de 200px */
+  object-fit: cover; /* Mantiene la proporción sin distorsionar la imagen */
+}
+.card-subtitle {
+  margin-top: 10px;  /* Agrega un espacio de 10px entre la imagen y el nombre */
+}

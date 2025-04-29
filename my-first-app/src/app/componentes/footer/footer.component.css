@@ -37,8 +37,26 @@ footer {
     margin: 20px 50px;
   }
 
+  .footer-copyright-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
   .contenedor_copyright {
-    font-size: 16px;
-    color: #f9f5e8;
+    margin: 0;
+  }
+
+  .footer-icon-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px; /* Espacio entre el texto y el icono */
+  }
+
+  .footer-icon {
+    width: 70px;  /* Ajusta el tamaño del icono */
+    height: 70px;
   }
 }

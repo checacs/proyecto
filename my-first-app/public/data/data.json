@@ -9,7 +9,7 @@
       "Origen": "Japon",
       "Altura": "Shohin",
       "imagen": "bonsai_2.jpg",
-      "stock": "true"
+      "stock": true
 
     },
     {
@@ -19,7 +19,7 @@
       "Origen": "España",
       "Altura": "Shohin",
       "imagen": "bonsai_1.jpg",
-      "stock": "true"
+      "stock": true
     },
     {
       "nombre": "Chaenomeles",
@@ -28,7 +28,7 @@
       "Origen": "Japon",
       "Altura": "Mame",
       "imagen": "bonsai_3.jpg",
-      "stock": "true"
+      "stock": true
     },
     {
       "nombre": "Olmo",
@@ -37,7 +37,7 @@
       "Origen": "España",
       "Altura": "Shohin",
       "imagen": "bonsai-1.jpg",
-      "stock": "true"
+      "stock": true
     },
     {
       "nombre": "Romero",
@@ -46,7 +46,7 @@
       "Origen": "España",
       "Altura": "Shohin",
       "imagen": "bonsai-2.jpg",
-      "stock": "true"
+      "stock": true
     },
     {
       "nombre": "Arce",
@@ -55,7 +55,7 @@
       "Origen": "Japon",
       "Altura": "Mame",
       "imagen": "bonsai-3.jpg",
-      "stock": "true"
+      "stock": false
     },
     {
       "nombre": "Pino",
@@ -64,7 +64,7 @@
       "Origen": "España",
       "Altura": "Shohin",
       "imagen": "bonsai-4.jpg",
-      "stock": "true"
+      "stock": false
     }
   ]
 }

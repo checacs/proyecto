@@ -8,16 +8,18 @@
   @for (planta of bonsai.especies; track $index) {
     <div class="card m-2 d-flex flex-column " style="width: 25rem;">
       <div class="card-body">
-        <img class="w-100" src="{{planta.imagen}}" alt="">
+        <img class="" src="{{planta.imagen}}" alt="" style="width: 250px">
         <!-- <h5 class="card-title"></h5> -->
        <div>
-        <h6 class="card-subtitle mb-2 text-body-secondary">{{planta.nombre}}</h6>
-        <p class="card-text">{{planta.Precio}}</p>
-        <p class="card-text">{{planta.Variedad}}</p>
-        <p class="card-text">{{planta.Origen}}</p>
-        <p class="card-text">{{planta.Altura}}</p>
-        @if (planta.stock) {<p class="card-text">A la venta</p>}
-        @else {<p class="card-text">Vendido</p>}
+        <h6 class="card-subtitle mb-2 text-body-secondary mt-2">{{planta.nombre}}</h6>
+        <p class="card-text">Precio: {{planta.Precio}}</p>
+        <p class="card-text">Variedad: {{planta.Variedad}}</p>
+        <p class="card-text">Origen: {{planta.Origen}}</p>
+        <p class="card-text">Tamaño: {{planta.Altura}}</p>
+        <!-- <p class="card-text">En stock: {{planta.stock}}</p> -->
+         @if (planta.stock) {<p class="card-text">Especie disponible para la venta</p>}
+         @else {<p class="card-text">Especie no disponible para la venta</p>}
+
        </div>
       </div>
     </div>
